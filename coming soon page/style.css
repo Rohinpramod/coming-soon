@@ -1,0 +1,66 @@
+
+body{
+  background-image:url("./img/bg-pattern-desktop.svg");
+  
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+ 
+
+}
+
+.container{
+    
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2vh;
+    
+    
+}
+.text-content{
+    
+    padding-top: 60px;
+    width: 60%; 
+      
+}
+span{
+    font-weight: 100; 
+    color: hsl(0, 36%, 70%);
+    font-weight: 200;
+       
+}
+
+.logo{
+    padding-bottom: 120px;
+}
+.input{
+    width:70%;
+    background-color: transparent;
+    border-color:hsl(0, 36%, 70%); 
+    border-radius: 1rem;
+    border-width: 1px;
+    opacity:0.3 ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-top: 9%;
+    color: black;
+}
+#btn{
+    background-image: linear-gradient(to right,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius:2rem;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    
+}
+.arrow{
+    width: 7px;
+}
+.hero-image{
+    padding-left:10% ;
+}
+
